@@ -41,7 +41,7 @@ const Heading = styled(Box)`
 const Editor = ({ heading, icon, language, codeValue, changingValue }) => {
   // const [editorValue, setEditorValue] = useState(codeValue);
   const onChange = useCallback((value, viewUpdate) => {
-    console.log("value:", value);
+    //console.log("value:", value);
     changingValue(value)
     // console.log(viewUpdate)
     // setEditorValue(value);
